@@ -1,0 +1,8 @@
+[user]
+	name = Victor Delgado
+	email = vdel26@gmail.com
+[color]
+	ui = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f

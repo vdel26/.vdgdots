@@ -1,0 +1,28 @@
+{
+  "asi": true,       // allow not using semicolons
+  "browser": true,   // defines browser globals: document, window, navigator, and other HTML5
+  // "devel": true,  // defines globals like: console, alert
+  "eqeqeq": true,
+  "eqnull": true,    // allow comparisons with null (e.g. == null)
+  "expr": true,
+  "globals": {
+    /* chrome API */
+    "chrome": false,
+    /* mocha bdd */
+    "describe"   : false,
+    "it"         : false,
+    "before"     : false,
+    "beforeEach" : false,
+    "after"      : false,
+    "afterEach"  : false
+  },
+  "immed": true,     // require wrapping immediate function invokations in parens
+  "indent": 2,
+  "latedef": "nofunc",
+  "laxbreak": true,
+  "newcap": true,    // require capitalizing constructor functions
+  "noarg": true,     // forbid argument.caller and argument.callee
+  "node": true,      // define node globals
+  "strict": false,   // don't always require strict mode
+  "undef": true
+}
