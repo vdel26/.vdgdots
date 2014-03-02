@@ -15,10 +15,14 @@ Bundle 'gmarik/vundle'
 
 " Bundles
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'chriskempson/base16-vim'
 Bundle 'ervandew/supertab'
+Bundle 'fxn/vim-monochrome'
+Bundle 'itchyny/lightline.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Raimondi/delimitMate'
+Bundle 'tpope/vim-surround'
 
 
 " Automatically detect file types (required for Vundle)
@@ -31,7 +35,7 @@ syntax enable
 
 " colors
 set background=dark
-colorscheme solarized
+colorscheme base16-default
 
 
 set autoindent
@@ -91,3 +95,7 @@ if executable('ag')
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
 endif
+
+
+" md is markdown
+autocmd BufRead,BufNewFile *.md set filetype=markdown
