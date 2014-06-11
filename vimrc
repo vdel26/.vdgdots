@@ -21,9 +21,14 @@ Bundle 'fxn/vim-monochrome'
 Bundle 'itchyny/lightline.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
+Bundle 'nginx.vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'Raimondi/delimitMate'
 Bundle 'tpope/vim-surround'
+Bundle 'digitaltoad/vim-jade'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
 
 
 " Automatically detect file types (required for Vundle)
@@ -100,3 +105,6 @@ endif
 
 " md is markdown
 autocmd BufRead,BufNewFile *.md set filetype=markdown
+" conf is nginx
+autocmd BufRead,BufNewFile *.conf set filetype=nginx
+
