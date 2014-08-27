@@ -24,6 +24,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'nginx.vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'Raimondi/delimitMate'
+Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-surround'
 Bundle 'digitaltoad/vim-jade'
 Bundle "MarcWeber/vim-addon-mw-utils"
