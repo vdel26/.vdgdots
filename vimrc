@@ -16,21 +16,23 @@ Bundle 'gmarik/vundle'
 " Bundles
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/base16-vim'
+Bundle 'digitaltoad/vim-jade'
 Bundle 'ervandew/supertab'
 Bundle 'fxn/vim-monochrome'
+Bundle 'garbas/vim-snipmate'
 Bundle 'itchyny/lightline.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'majutsushi/tagbar'
 Bundle 'nginx.vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'Raimondi/delimitMate'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tomtom/tlib_vim'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
-Bundle 'digitaltoad/vim-jade'
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
 
 
 " Automatically detect file types (required for Vundle)
@@ -109,4 +111,8 @@ endif
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 " conf is nginx
 autocmd BufRead,BufNewFile *.conf set filetype=nginx
+" liquified CSS
+autocmd BufRead,BufNewFile *.css.html.liquid set filetype=css
 
+" Nerdtree
+map <leader>n :NERDTreeToggle<CR>

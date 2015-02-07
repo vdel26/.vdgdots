@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/GitHub (SL).tmTheme",
+	"color_scheme": "Packages/User/Ciapre (SL).tmTheme",
 	"find_selected_text": true,
 	"font_face": "Source Code Pro",
 	"font_size": 14.0,
@@ -13,8 +13,8 @@
 	],
 	"remember_open_files": false,
 	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": false,
 	"wide_caret": true
 }

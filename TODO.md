@@ -1,7 +1,0 @@
-- [X] make CtrlP only search from current directory and downwards
-- [X] same for Ag
-- [ ] configure Git branch in Lightline
-- [X] put some kind of snippet completion (ultisnips, snipmate)
-- [ ] use tagbar
-- [ ] remove trailing spaces automatically on save
-- [X] proper autoindent for javascript
